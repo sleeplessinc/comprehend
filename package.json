@@ -10,6 +10,5 @@
   "license": "ISC",
   "dependencies": {
     "@datafire/amazonaws_comprehend": "^5.0.0",
-    "sleepless": "^2.5.1"
   }
 }
