@@ -9,6 +9,6 @@
   "author": "Joe Hitchens <joe@sleepless.com>",
   "license": "ISC",
   "dependencies": {
-    "@datafire/amazonaws_comprehend": "^5.0.0",
+    "@datafire/amazonaws_comprehend": "^5.0.0"
   }
 }
