@@ -10,14 +10,6 @@
 
 	comprehend = require("comprehend");
 
-	comprehend({
-	})
-	.then( o => {
-		console.log(o);
-	})
-
-	comprehend = require("comprehend");
-
 	creds = {
 		accessKeyId: "YOUR_ACCESS_KEY",
 		secretAccessKey: "YOUR_SECRET_KEY",
@@ -25,7 +17,7 @@
 	};
 
 	comprehend(creds, "I have a lovely bunch of coconuts.") .then( o => {
-		console.log("out="+o2j(o));
+		console.log( "out=" + JSON.stringify(o) );
 	});
 
 
