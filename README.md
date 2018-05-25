@@ -24,7 +24,7 @@
 		region: "us-west-2"
 	};
 
-	comprehend(creds, "I have a lovely bunch of coconuts") .then( o => {
+	comprehend(creds, "I have a lovely bunch of coconuts.") .then( o => {
 		console.log("out="+o2j(o));
 	});
 
